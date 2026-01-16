@@ -1,0 +1,771 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Abhaya+Libre:wght@400;500;600;700;800&family=Baskervville:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: ABeeZee, sans-serif;
+}
+
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* HEADER STYLE*/
+
+header{
+    display: flex;
+    padding: 1rem 2rem;
+    height: 4.5rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.navs{
+    display: flex;
+    gap: 2rem;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+#logo{
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+.navigation-2{
+    display: flex;
+    gap: 2.5rem;
+}
+
+.navigation-2 img{
+    width: 1.5rem;
+    height: 1.2rem;
+    cursor: pointer;
+    margin-right: 1rem;
+}
+
+#options{
+    width: 1rem;
+    height: 1rem;
+    display: none;
+}
+
+/*MAIN STYLE*/
+
+main {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start; 
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+#background-cls {
+  width: 100%;           
+  height: auto;          
+  display: block;        
+}
+
+.cls {
+  position: absolute;                     
+  color: white;
+  left: 3.5rem;
+  margin-top: 2.5rem;
+}
+
+main h1{
+    font-size: 4vw;
+    margin: 0 0 1rem 0;
+}
+
+main p{
+    margin: 0 0 2rem 0;
+    font-size: 2vw;
+}
+
+
+/*CATALOG STYLE*/
+
+.catalog{
+    margin-top: 2rem;
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.card{ 
+    padding: 2.5rem;
+    max-width: 60rem;
+    max-height: 55rem;
+    border-radius: 2.5%;
+    background-color: #d9d9d9;
+}
+
+.card img{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin-left: 1.8rem;
+    margin-top: 1rem;
+}
+
+#hybrid-g-class{ 
+    max-width: 38.5rem;
+}
+
+
+.card > h4{
+    margin-left: 2rem;
+    font-size: 3.5vw;
+}
+
+.card > p{
+    margin-top: 1.2rem;
+    margin-left: 2.1rem;
+    font-size: 2.5vw;
+}
+
+.below-card {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+#hybrid-glc-suv .below-card {
+    margin-top: 4.8rem;
+}
+
+#hybrid-g-class .below-card {
+    margin-top: 9rem;
+}
+
+#hybrid-g-class img {
+    margin-top: 4rem;
+}
+
+.car-info {
+    padding: 1rem;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.color-selector > button {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    border: 0.1rem solid rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.color-grey{
+    background-color: rgb(176, 177, 179);
+}
+.color-blue{
+    background-color: blue;
+}
+.color-black{
+    background-color: black;
+}
+.color-red{
+    background-color: rgb(223, 79, 79);
+}
+.color-yellow{
+    background-color: rgb(241, 241, 89);
+}
+.color-smooth-blue{
+    background-color: rgb(109, 109, 198);
+}
+
+
+/*FIND A PARTNER STORE STYLE*/
+
+.finder > article > h2 {
+    font-size: 5vw;
+    margin-top: 4.5rem;
+    margin-bottom: 2rem;
+}
+
+.finder > article > p {
+    font-size: 2.5vw;
+    margin-bottom: 1rem;
+}
+
+.finder > article > h2, p {
+    margin-left: 2.5rem;
+}
+
+.discover {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+#background-discover {
+    width: 100%;           
+    height: auto;          
+    display: block;        
+}
+
+.discover > div {
+    position: absolute;
+    margin-left: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    background-color: #a2a2a29a;
+    border-radius: 2rem;
+    color: white;
+    width: 30rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.discover > div > p {
+    font-size: 2.8rem;
+}
+
+.discover > div > button {
+    width: 60%;
+    height: 20%;
+    padding: 1rem;
+    border-radius: 2.5rem;
+    margin-left: 2.5rem;
+    border: none;
+    cursor: pointer;
+    color: #141615;
+}
+
+/*EQUIPMENT STYLE*/
+
+.equipment {
+    margin: auto;
+    gap: 1.5rem;
+    margin-left: 2.5rem;
+    display: flex;
+    overflow-x: auto;
+}
+
+.equipment > article > img {
+    width: 100%;
+    max-width: 65rem;
+    height: 25rem;
+    max-height: 25rem;
+}
+
+.equipment > article {
+    background-color: #d9d9d9;
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: 12px;
+    flex: 1;
+    max-width: 70rem;
+    min-width: 50rem;
+}
+
+.equipment > article > h6 {
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+}
+
+.equipment > article > button {
+    margin-top: 1.5rem;
+    padding: 1rem 1.5rem;
+    border-radius: 25px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/*MAYBACH STYLE*/
+
+.maybach-tentation{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    box-sizing: border-box;
+}
+
+#background-maybach {
+    width: 100%;           
+    height: auto;          
+    display: block;        
+    }
+
+.maybach-tentation > article {
+    position: absolute;
+    max-width: 70rem;
+    margin-bottom: 5rem;
+    margin-left: 6.5rem;
+    color: white;
+    display: flex;
+    gap: 1.5rem;
+    flex-direction: column;
+}
+
+.maybach-tentation > article > h3 {
+    font-size: 4vw;
+    margin-left: 1.5rem;
+}
+
+.maybach-tentation > article > p {
+    font-size: 1.2rem;
+    margin-left: 1.5rem;
+    max-width: 40rem;
+}   
+
+/*WHEELS PROGRAME STYLE*/
+
+.wheel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wheel > img {
+    width: 55rem;
+    max-width: 65rem;
+    margin: 5rem;
+}
+
+.wheel > article {
+    width: 100%;
+    max-width: 70rem;
+    margin: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    justify-content: center;
+    
+}
+
+.wheel > article > h3 {
+    font-size: 3vw;
+    margin-left: 1rem;
+}
+
+.wheel > article > p {
+    font-size: 1.5vw;
+    margin: 0 1rem;
+}
+
+.wheel > article > button {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    width: 7rem;
+    font-size: 2vw;
+    cursor: pointer;
+}
+
+/*FOOTER STYLE*/
+
+footer{
+    background-color: black;
+    color: white
+}
+
+/*CONTACT STYLE*/
+
+.contact{
+    background-color: rgb(85, 85, 85);
+    padding: 3.5rem 4rem;
+    display: flex;
+    justify-content: space-around;
+    gap: 5rem;
+}
+
+.contact > button {
+    width: 13rem;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+}
+
+/*NEWSLETTER STYLE*/ 
+.newsletter {
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 0 2rem;
+  box-sizing: border-box;
+}
+
+.newsletter > .join {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.subscribe {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  gap: 0.5rem; 
+  margin: 0; 
+  width: 100%;
+  max-width: 40rem; 
+}
+
+.subscribe > input {
+  flex: 1;
+  width: 100%; 
+  height: 3rem;
+  padding: 1rem;
+  border-radius: 25px;
+  border: solid 0.08rem white;
+  background-color: black;
+  color: white;
+  box-sizing: border-box;
+}
+
+.subscribe > input::placeholder {
+  color: white;
+  text-align: center;
+}
+
+.subscribe > button {
+  flex-shrink: 0; 
+  width: auto;
+  padding: 0 1.5rem;
+  border-radius: 25px;
+  background-color: white;
+  color: black;
+  border: none;
+  height: 3rem;
+  cursor: pointer;
+  position: static; 
+}
+
+
+/*PRIVACY POLICY STYLE*/
+
+.privacy-policy {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.underline{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/*SOCIAL MEDIA STYLE*/
+
+.rrss{
+    display: flex;
+    gap: 2rem;
+}
+
+.rrss img{
+    width: 1.2rem;
+    height: 1.2rem;
+    cursor: pointer;
+}
+
+/*EXPLORE*/ 
+
+.explore {
+    padding: 3rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.explore > article > h6 {
+    font-size: 1.5rem;
+    font: bold;
+    margin-bottom: 1rem;
+    margin-left: 2.5rem;
+}
+
+.explore > article > p {
+    color: grey;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.explore > article > p:hover {
+    color: white;
+}
+
+footer > button {
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+/*MEDIA QUERIES*/
+
+@media (max-width: 769px) {
+
+    /*HEADER STYLE*/
+
+    .navs{
+        display: none;
+    }
+
+    #options{
+        display: block;
+        width: 2rem;
+        height: 2rem;
+        cursor: pointer;
+    }
+
+    header{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    
+    header > .navigation-2 > img {
+        width: 1.5rem;
+        height: 1.5rem;
+        display: flex;
+        justify-content: space-around;
+        text-align: space-around;
+    } 
+
+    /*CATALOG STYLE*/
+    
+    .catalog{
+        margin: 1rem 1rem 0 1rem;
+        gap: 1rem;
+    }
+
+    .card{
+        max-width:40rem;
+        min-width: 10rem;
+        padding-left: 0;
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    .card > h4{
+        font-size: 6vw;
+    }
+
+    .card > p{
+        font-size: 3vw;
+    }
+
+    .color-selector > button {
+        display: none;
+    }
+
+    .below-card {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /*FIND A PARTNER STORE STYLE*/
+
+    .finder {
+        display: flex;
+        flex-direction: column;
+        align-items: center;   
+        justify-content: center;
+    }
+
+    .finder > article > h2, p {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .finder > article > h2 {
+        font-size: 8vw;
+    }
+
+    .finder > article > p {
+        font-size: 4vw;
+        margin-bottom: 1rem;
+    }
+
+    /*DISCOVER STYLE*/
+
+    .discover{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .discover > div {
+        margin: 1rem;
+        max-width: 90%;
+        max-height: 90%;
+    }
+
+    .discover > div > p {
+        font-size: clamp(8vw, 8vw, 8vw);
+    }
+
+    .discover > div > button {
+        width: 80%;
+        margin-left:1rem;
+        font-size: 3vw;
+    }
+
+    /*EQUIPMENT STYLE*/
+
+    .equipment > article {
+        flex: 0 0 90%;
+        min-width: 90%;
+        margin: 0;
+        margin-top: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .equipment > article > img {
+        width: 100%;
+        height: auto;
+    }
+
+    /*EXPLORE STYLE*/
+
+    .explore{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .explore > article > h6 {
+        margin: 1rem;
+    }
+
+    .explore > article > .help {
+        margin-left: 3.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+
+    /*MAIN STYLE*/
+
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        justify-content: end;
+    }
+
+    .cls{
+        right: 11.5rem;
+        top: 2.8rem;
+    }
+    
+    .cls > .p-main{
+        text-align: left;
+    }
+}
+
+@media (max-width: 1119px) {
+
+    /*MAYBACH STYLE*/
+
+  .maybach-tentation {
+    margin-top: 1rem;
+    margin-left: 0;
+    display: flex;
+    flex-direction: column; 
+    align-items: stretch; 
+    overflow-x: hidden;
+  }
+
+  .maybach-tentation > article {
+    position: static; 
+    background-color: #d9d9d9;
+    width: 100%; 
+    margin: 0; 
+    padding: 2rem 2rem; 
+    box-sizing: border-box; 
+    color: black; 
+    display: flex;
+    align-items: center;
+  }
+
+  .maybach-tentation > article > h3 {
+    font-size: clamp(1.5rem, 2vw, 2rem);
+  }
+
+  .maybach-tentation > article > p {
+    font-size: clamp(1rem, 2vw, 1.4rem);
+  }
+}
+
+@media (max-width: 1245px){
+    
+    /*WHEELS PROGRAME STYLE*/
+
+    .wheel {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+  .wheel > img {
+    width: 90%;
+    margin: 0 2rem 1rem 2rem; 
+    border-radius: 1%;
+  }
+
+  .wheel > article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0 2rem 0;
+  }
+
+  .wheel > article > h3 {
+    font-size: 4vw;
+  }
+
+  .wheel > article > p {
+    font-size: 2.5vw;
+}
+}
+
+@media (max-width: 920px){
+
+    /*CONTACT STYLE*/
+
+    .contact {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .contact > button {
+        height: 2.5rem;
+    }
+}
+
