@@ -10,23 +10,25 @@
 <body>
     <header>
         <div class="navigation">
-            <img src="./assets/icon-mercedes.png" alt="Mercedes-logo" id="logo">
-            <div class="navs">
-                <nav>ELECTRIC</nav>
-                <nav>MAYBACH</nav>
-                <nav>ACCESORIES</nav>
-                <nav>STORES</nav>
-            </div>
+            <img src="./assets/icon-mercedes.png" alt="Mercedes-logo" class="logo">
+            <nav class="navs">
+                <ul>
+                    <li><a href="#">ELECTRIC</a></li>
+                    <li><a href="#">MAYBACH</a></li>
+                    <li><a href="#">ACCESORIES</a></li>
+                    <li><a href="#">STORES</a></li>
+                </ul>
+            </nav>
         </div>
         <div class="navigation-2">
-            <img src="./assets/profile-icon.png" alt="Profile icon" id="profile-icon">
-            <img src="./assets/cart.png" alt="Cart icon" id="cart-icon">
-            <img src="./assets/options.png" alt="Opciones de navegación" id="options">
+            <img src="./assets/profile-icon.png" alt="Profile icon" class="profile-icon">
+            <img src="./assets/cart.png" alt="Cart icon" class="cart-icon">
+            <img src="./assets/options.png" alt="Opciones de navegación" class="options">
         </div>
     </header>
 
     <main>
-        <img src="./assets/mercedes.jpg" alt="Mercedes-CLS" id="background-cls">
+        <img src="./assets/mercedes.jpg" alt="Mercedes-CLS" class="background-cls">
         <div class="cls">
             <h1>New Mercedes CLS</h1>
             <p class="p-main">The Power In Your Hands</p>
@@ -34,12 +36,12 @@
     </main>
 
     <section class="catalog">
-        <article class="card" id="cabriolet">
-            <h4>Electric</h4>
+        <article class="card cabriolet">
+            <h2>Electric</h2>
             <p>Merces E450 Cabriolet</p>
             <img src="./assets/cabriolet-electric.png" alt="Mercedes Cabriolet">
             <div class="below-card">
-                <a href="https://www.mercedes-benz.es/passengercars/models/cabriolet-roadster/cle/overview.html" class="car-info">More info</a>
+                <a href="https://www.mercedes-benz.es/passengercars/models/cabriolet-roadster/cle/overview.html" class="car-info" target="_blank">More info</a>
                 <div class="color-selector">
                     <button class="color-grey" data-color="grey"></button>
                     <button class="color-red" data-color="red"></button>
@@ -49,12 +51,12 @@
             </div>  
         </article>
 
-        <article class="card" id="hybrid-glc-suv">
-            <h4>Hybrid</h4>
+        <article class="card hybrid-glc-suv">
+            <h2>Hybrid</h2>
             <p>Merces GLC SUV</p>
             <img src="./assets/hybrid-glc-suv.png" alt="Mercedes GLC SUV">
             <div class="below-card">
-                <a href="https://www.mercedes-benz.es/passengercars/models/suv/glc/overview.html" class="car-info">More info</a>
+                <a href="https://www.mercedes-benz.es/passengercars/models/suv/glc/overview.html" class="car-info" target="_blank">More info</a>
                 <div class="color-selector">
                     <button class="color-black" data-color="black"></button>
                     <button class="color-yellow" data-color="yellow"></button>
@@ -63,13 +65,13 @@
             </div>
         </article>
 
-        <article class="card" id="hybrid-g-class">
-            <h4>Hybrid</h4>
+        <article class="card hybrid-g-class">
+            <h2>Hybrid</h2>
             <p>Merces Benz-G-Class</p>
             <img src="./assets/hybrid-g-class.png" alt="Mercedes G-Class">
             <div class="below-card">
                
-                <a href="https://www.mercedes-benz.es/passengercars/models/suv/g-class/overview.html?srsltid=AfmBOorj16EC9h-9_3a68-leI6vHP3Gl8S-YwGbxS6kW6A6rkJ8UcTSF" class="car-info">More info</a>
+                <a href="https://www.mercedes-benz.es/passengercars/models/suv/g-class/overview.html?srsltid=AfmBOorj16EC9h-9_3a68-leI6vHP3Gl8S-YwGbxS6kW6A6rkJ8UcTSF" class="car-info" target="_blank">More info</a>
                 
                 <div class="color-selector">
                     <button class="color-black" data-color="black"></button>
@@ -79,12 +81,12 @@
             </div>
         </article>
 
-        <article class="card" id="Electric-amg">
-            <h4>Electric</h4>
+        <article class="card Electric-amg">
+            <h2>Electric</h2>
             <p>Merces AMG GT-S</p>
             <img src="./assets/electric-glc-suv.png" alt="Mercedes-AMG-GT-S">
             <div class="below-card">
-                <a href="https://www.mercedes-benz.es/passengercars/models/coupe/amg-gt-2-door/overview.html" class="car-info">More info</a>
+                <a href="https://www.mercedes-benz.es/passengercars/models/coupe/amg-gt-2-door/overview.html" class="car-info" target="_blank">More info</a>
                 <div class="color-selector">
                     <button class="color-black" data-color="black"></button>
                     <button class="color-yellow" data-color="yellow"></button>
@@ -102,7 +104,7 @@
         </article>
 
         <article class="discover">
-            <img src="./assets/us-night.png" alt="US-map-night" id="background-discover">
+            <img src="./assets/us-night.png" alt="US-map-night" class="background-discover">
             <div>
                 <p>Discover your <br>local Mercedes <br>partner store</p>
                 <button>Find a partner store near you</button>
@@ -113,33 +115,33 @@
     
     <section class="equipment">
         <article>
-            <h6>Confort</h6>
+            <h2>Confort</h2>
             <img src="./assets/confort.png" alt="Inside-car">
             <button>More info</button>
         </article>
          <article>
-            <h6>Technology</h6>
+            <h2>Technology</h2>
             <img src="./assets/technology.png" alt="Headlight">
             <button>More info</button>
         </article>
          <article>
-            <h6>Accesories</h6>
+            <h2>Accesories</h2>
             <img src="./assets/accesories.jpg" alt="Accesories">
             <button>More info</button>
         </article>
     </section>
 
     <section class="maybach-tentation">
-        <img src="./assets/maybach-red.png" alt="Maybach-red" id="background-maybach">
+        <img src="./assets/maybach-red.png" alt="Maybach-red" class="background-maybach">
         <article>
-            <h3>Red as tentation</h3>
+            <h2>Red as tentation</h2>
             <p>Good design is what drive us, and we're proud to share that Mercedes-Maybach has already won the prestigious Best Design Award 2023, as judged by the world's best product designers.</p>
         </article>
     </section>
 
     <section class="wheel">
         <article>
-            <h3>The Mercedes-Maybach <br>wheel programme</h3>
+            <h2>The Mercedes-Maybach <br>wheel programme</h2>
             <p>The exclusive Mercedes-Maybach wheel programme, e.g. with optional 53.3cm (21") Maybach forged wheels in multi-spoke design.</p>
             <button>Learn more</button>
         </article>
@@ -165,17 +167,17 @@
                 <label for="PrivacyPolicy">By signing up, I agree to the <span class="underline">privacy policy</span> of Valoretti.</label>
             </div>
             <div class="rrss">
-                <img src="/assets/facebook.png" alt="Facebook-logo">
-                <img src="/assets/instagram.png" alt="Instagram-logo">
-                <img src="/assets/youtube.png" alt="Youtube-logo">
-                <img src="/assets/linkedin.png" alt="LinkedIn-logo">
-                <img src="/assets/tiktok.png" alt="Tiktok-logo">
+                <a href="https://facebook.com" target="_blank"><img src="/assets/facebook.png" alt="Facebook-logo"></a>
+                <a href="https://instagram.com" target="_blank"><img src="/assets/instagram.png" alt="Instagram-logo"></a>
+                <a href="https://youtube.com" target="_blank"><img src="/assets/youtube.png" alt="Youtube-logo"></a>
+                <a href="https://linkedin.com" target="_blank"><img src="/assets/linkedin.png" alt="LinkedIn-logo"></a>
+                <a href="https://tiktok.com" target="_blank"><img src="/assets/tiktok.png" alt="Tiktok-logo"></a>
             </div>
         </section>
 
         <section class="explore">
             <article>
-                    <h6>Explorer</h6>
+                    <h3>Explorer</h3>
                     <p>Electric bikes</p>
                     <p>City bikes</p>
                     <p>Kid's bikes</p>
@@ -187,7 +189,7 @@
             </article>
 
             <article>
-                <h6>About</h6>
+                <h3>About</h3>
                 <p>About us</p>
                 <p>Journal</p>
                 <p>Reviews</p>
@@ -196,7 +198,7 @@
             </article>
 
             <article>
-                <h6 class="help">Help</h6>
+                <h3 class="help">Help</h3>
                 <p>Contact</p>
                 <p>FAQ</p>
                 <p>Delivery</p>
